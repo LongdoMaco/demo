@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Ra_quyetdinh_Tuyendung", "Ra_quyetdinh_Tuyendung\Ra_quyetdinh_Tuyendung.dwproj", "{83B0B3E0-2AEE-4AF4-9685-8A4AE838DD7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83B0B3E0-2AEE-4AF4-9685-8A4AE838DD7D}.Development|Default.ActiveCfg = Development
+		{83B0B3E0-2AEE-4AF4-9685-8A4AE838DD7D}.Development|Default.Build.0 = Development
+		{83B0B3E0-2AEE-4AF4-9685-8A4AE838DD7D}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

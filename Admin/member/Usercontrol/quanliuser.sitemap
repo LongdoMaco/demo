@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="" title=""  description="">
+		<siteMapNode url="~/Admin/default.aspx" title="Trang chủ"  description="" />
+		<siteMapNode url="~/Admin/member/Default.aspx" title="Thêm thành viên"  description=""/>
+		<siteMapNode url="~/Admin/member/DanhMucModule.aspx" title="Thêm module"  description=""/>
+		<siteMapNode url="~/Admin/member/DanhMucQuyentruycap.aspx" title="Thêm quyền"  description=""/>
+		<siteMapNode url="~/DangNhap.aspx" title="Thoát"  description="" />
+	</siteMapNode>
+</siteMap>

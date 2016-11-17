@@ -1,0 +1,225 @@
+.NutGv1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/songten3.gif); BORDER-LEFT: 0px; WIDTH: 28px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.NutGv2 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/songten2.gif); BORDER-LEFT: 0px; WIDTH: 28px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.NutGv3 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/chu_timnhanh.gif); BORDER-LEFT: 0px; WIDTH: 57px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.NutGv4 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/chu_luuthongtin.gif); BORDER-LEFT: 0px; WIDTH: 78px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.NutLenh1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne1.gif); BORDER-LEFT: 0px; WIDTH: 43px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.NutLenh2 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne2.gif); BORDER-LEFT: 0px; WIDTH: 55px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.NutLenh3 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne3.gif); BORDER-LEFT: 0px; WIDTH: 76px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.NutLenh4 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne4.gif); BORDER-LEFT: 0px; WIDTH: 100px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.NutLenh5 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne5.gif); BORDER-LEFT: 0px; WIDTH: 122px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.HopCheck {
+	BORDER-RIGHT: #c0c0c0 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #c0c0c0 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: #c0c0c0 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+.HopVanBan1 {
+	BORDER-RIGHT: #000088 0px solid; BORDER-TOP: #000088 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #000088 0px solid; BORDER-BOTTOM: #000088 0px solid; FONT-FAMILY: Verdana, Helvetica, Arial, Sans-serif
+}
+.HopVanBan2 {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Verdana, Helvetica, Arial, Sans-serif
+}
+.HopDanhSach {
+	BORDER-RIGHT: #000088 0px solid; BORDER-TOP: #000088 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #000088 0px solid; BORDER-BOTTOM: #000088 0px solid; FONT-FAMILY: Tahoma, Helvetica, Arial, Sans-serif
+}
+.text1 {
+	FONT-SIZE: 12px; COLOR: #003399; FONT-FAMILY: Tahoma, Verdana,Arial
+}
+.tables {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: "Tahoma", "Verdana", "Arial"; BORDER-RIGHT-WIDTH: 1px
+}
+.red-text {
+	FONT-SIZE: 10px; COLOR: #ff0000; FONT-FAMILY: "Tahoma", "Verdana", "Arial"
+}
+.newsletter_input {
+	FONT-SIZE: 11px; WIDTH: 100px; FONT-FAMILY: "Tahoma", "Verdana", "Arial"
+}
+.navbar_text {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: "Tahoma", "Verdana", "Arial"; TEXT-DECORATION: none
+}
+.product_panel_cate {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: "Tahoma", "Verdana", "Arial"
+}
+.product_panel_text {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: "Tahoma", "Verdana", "Arial"
+}
+.navbar_text_2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #3366cc; FONT-FAMILY: "Tahoma", "Verdana", "Arial"; TEXT-DECORATION: none
+}
+.dropmenu_text {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #3366cc; FONT-FAMILY: "Tahoma", "Verdana", "Arial"; TEXT-DECORATION: none
+}
+.dropmenu {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; COLOR: #3366cc; PADDING-TOP: 3px; FONT-FAMILY: "Tahoma", "Verdana", "Arial"
+}
+A.drmenu:link {
+	FONT-SIZE: 8pt; COLOR: #5a5d61; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.drmenu:active {
+	FONT-SIZE: 9pt; COLOR: #5a5d61
+}
+A.drmenu:hover {
+	COLOR: #3c76a6
+}
+A.drmenu:visited {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 8pt; PADDING-BOTTOM: 3px; COLOR: #5a5d61; PADDING-TOP: 3px; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+.product_panel_product {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #003366; FONT-FAMILY: "Tahoma", "?s??? "??? TEXT-DECORATION: none
+}
+.product_panel_category {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #003366; FONT-FAMILY: "Tahoma", "?s??? "??? TEXT-DECORATION: none
+}
+.newsletter_input {
+	FONT-SIZE: 11px; WIDTH: 95px; FONT-FAMILY: "Tahoma", "?s??? "???
+}
+.download_panel_product {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "Tahoma", "?s??? "??? TEXT-DECORATION: none
+}
+.download_panel_version {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; TEXT-TRANSFORM: none; COLOR: #990000; LINE-HEIGHT: 10px; FONT-FAMILY: "Tahoma", "?s??? "???
+}
+.bottom_text {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: "Tahoma", "?s??? "???
+}
+.content_hd {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0066cc; FONT-FAMILY: "Tahoma", "?s??? "???
+}
+.content_category {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "Tahoma", "?s??? "???
+}
+.content_text {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: "Tahoma", "?s??? "???
+}
+.content_more {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #0000ff; FONT-FAMILY: "Tahoma", "?s??? "???
+}
+.btnlogin {
+	BORDER-RIGHT: 2px; BORDER-TOP: 2px; FONT-SIZE: 10pt; BORDER-LEFT: 2px; COLOR: #ff0000; BORDER-BOTTOM: 2px; FONT-FAMILY: Tahoma,Arial; BACKGROUND-COLOR: #ffffff
+}
+A.lich_a:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_a:active:unknown {
+	COLOR: #2563c0
+}
+A.lich_a:hover {
+	COLOR: #3c76a6
+}
+A.lich_a:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_c:link {
+	FONT-SIZE: 8pt; COLOR: #ff8000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_c:active:unknown {
+	COLOR: #ff8000
+}
+A.lich_c:hover {
+	COLOR: #3c76a6
+}
+A.lich_c:visited {
+	FONT-SIZE: 8pt; COLOR: #ff8000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_b:link {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_b:active:unknown {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_b:hover {
+	FONT-SIZE: 8pt; COLOR: #3c76a6; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_b:visited {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+.td1 {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid
+}
+.td2 {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 1px; BORDER-TOP: 0px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: 0px solid; PADDING-TOP: 1px; BORDER-BOTTOM: 0px solid
+}
+.tdlogin {
+	FONT-SIZE: 9pt; COLOR: #2563c0; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.txtlogin {
+	FONT-SIZE: 12px; COLOR: #000066; FONT-FAMILY: Tahoma, Arial
+}
+.st1 {
+	FONT-SIZE: 10pt; COLOR: #800000; FONT-FAMILY: Tahoma
+}
+.st2 {
+	FONT-SIZE: 10pt; FONT-FAMILY: Tahoma
+}
+.st3 {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+.st4 {
+	FONT-SIZE: 10pt; COLOR: #ff0000; FONT-FAMILY: Tahoma
+}
+.st5 {
+	FONT-SIZE: 9pt; COLOR: #ff8040; FONT-FAMILY: Tahoma
+}
+.st6 {
+	FONT-SIZE: 9pt; FONT-FAMILY: Tahoma
+}
+.lich1 {
+	FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.lich2 {
+	FONT-SIZE: 8pt; COLOR: #ff8000; FONT-FAMILY: Tahoma
+}
+.lich3 {
+	FONT-WEIGHT: 700; FONT-SIZE: 10pt; COLOR: #ff8000; FONT-FAMILY: Tahoma
+}
+.lich4 {
+	FONT-WEIGHT: 700; FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: Tahoma
+}
+.lich5 {
+	FONT-WEIGHT: 700; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma
+}
+.lich51 {
+	FONT-WEIGHT: 700; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #f5f5f5
+}
+.lich6 {
+	FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: Tahoma
+}
+.lichmenu1 {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.lichmenu2 {
+	BORDER-TOP-WIDTH: 2px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 2px; FONT-SIZE: 9pt; BORDER-BOTTOM-WIDTH: 0px; CURSOR: hand; COLOR: #ffff66; FONT-FAMILY: Tahoma; BORDER-RIGHT-WIDTH: 0px
+}
+.lichsn {
+	FONT-WEIGHT: 700; FONT-SIZE: 55pt; COLOR: #f5f5f5; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.lichxem {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 10pt; PADDING-BOTTOM: 10px; COLOR: #000088; PADDING-TOP: 10px; FONT-FAMILY: Tahoma
+}
+.gv1 {
+	FONT-SIZE: 8pt; COLOR: #000066; FONT-FAMILY: Tahoma, Arial
+}
+.gv2 {
+	FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.gv3 {
+	FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma
+}
+.gv4 {
+	FONT-SIZE: 8pt; COLOR: #2563c0; FONT-FAMILY: Tahoma
+}

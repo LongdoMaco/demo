@@ -1,0 +1,95 @@
+﻿.main
+{
+	 width:auto;
+	 padding:1px;
+	
+}
+.txttitle
+{
+border-bottom:0 none;
+color:#3E2F2F;
+font-family:"Droid Serif",Times,"Times New Roman",Georgia,"Bitstream Vera Serif",serif;
+font-size:20px;
+letter-spacing:-1px;
+line-height:100%;
+margin-bottom:0;
+}
+.Image
+{
+ padding:5px;
+ float:left;
+ width:200px;
+}
+
+.content
+{
+	width:98%;
+	float:left;
+	 padding-left:5px;
+	 padding-right:10px;
+}
+.Trichdan
+{
+	float:left;
+	width:259px;
+}
+.lblnguoidang
+{
+	color:#8A2BE2;
+}
+.lbllinhvuc
+{
+	font-weight:bold;
+	color:#24A1D4;
+}
+.Noidung
+{
+font-family:Arial,Helvetica,sans-serif;
+ font-weight:normal;
+ padding:5px;
+  float:left;
+   width:50%;
+ 
+}
+.linhvuc
+{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.title
+{
+	margin-top:10px;
+	padding:5px;
+}
+.hinhanh
+{
+	border: solid 1px #CCC;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+
+}
+.main_content
+{
+	ont-family:Arial,Helvetica,sans-serif;
+ font-weight:normal;
+ padding:5px;
+  float:left;
+}
+.NoiDungChinh
+{
+font-family:Arial,Helvetica,sans-serif;
+ font-weight:normal;
+ padding:5px;
+  float:left;
+}
+.Noidung
+{
+	width:300px;
+	padding:5px;
+	
+}
+.TomTat
+{
+	width:auto;
+}

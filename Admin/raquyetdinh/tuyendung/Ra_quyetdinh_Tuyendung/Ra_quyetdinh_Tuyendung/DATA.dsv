@@ -1,0 +1,296 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e5f652a5-7a70-4d39-947f-55269a6f3585" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DATA</ID>
+  <Name>DATA</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DATA</DataSourceID>
+  <Schema>
+    <xs:schema id="DATA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="856dba4e-4c77-4397-bcc5-c1de8b2133ae">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DimHocKy" msprop:FriendlyName="DimHocKy" msprop:DbSchemaName="dbo" msprop:DbTableName="DimHocKy" msprop:design-time-name="269da04b-2729-4cad-baf2-e2d985371925" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID" msprop:DbColumnName="ID" msprop:design-time-name="c56ff5b1-2322-4774-ae39-ee6740688ccc" type="xs:int" />
+                  <xs:element name="HocKy" msprop:FriendlyName="HocKy" msprop:DbColumnName="HocKy" msprop:design-time-name="cb7ef8c0-ea28-4ffd-8dc8-56b9404fc785" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimMonHoc" msprop:FriendlyName="DimMonHoc" msprop:DbSchemaName="dbo" msprop:DbTableName="DimMonHoc" msprop:design-time-name="14cc23c0-1aca-4a97-b79f-9cd9a137628e" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID" msprop:DbColumnName="ID" msprop:design-time-name="8a60b3cb-cd51-4002-9d41-1d08e914b46c" type="xs:int" />
+                  <xs:element name="MonHoc" msprop:FriendlyName="MonHoc" msprop:DbColumnName="MonHoc" msprop:design-time-name="f3418a9b-6de8-4ed7-b765-8d3539fb6585" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimNam" msprop:FriendlyName="DimNam" msprop:DbSchemaName="dbo" msprop:DbTableName="DimNam" msprop:design-time-name="91836197-7c65-4dbd-909a-d74a03a95e27" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID" msprop:DbColumnName="ID" msprop:design-time-name="4c7ab81d-a32d-47fd-a16b-c082e0e04440" type="xs:int" />
+                  <xs:element name="Nam" msprop:FriendlyName="Nam" msprop:DbColumnName="Nam" msprop:design-time-name="1c3830e7-ed50-457b-9a4a-20efd98122cf" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FactGioGiang" msprop:FriendlyName="FactGioGiang" msprop:DbSchemaName="dbo" msprop:DbTableName="FactGioGiang" msprop:design-time-name="a85d852c-5ad5-4892-9d74-736b3032db62" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID" msprop:DbColumnName="ID" msprop:design-time-name="3a1eb38b-c6e7-4b7e-85af-2cc6b1fdae4a" type="xs:int" />
+                  <xs:element name="IDNhanVien" msprop:FriendlyName="IDNhanVien" msprop:DbColumnName="IDNhanVien" msprop:design-time-name="127a3dfe-e131-4046-8f5a-2d12d8d9dacb" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDNamHoc" msprop:FriendlyName="IDNamHoc" msprop:DbColumnName="IDNamHoc" msprop:design-time-name="c2cd9c2e-9287-4559-8ec5-5d3b83afdbcc" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDMon" msprop:FriendlyName="IDMon" msprop:DbColumnName="IDMon" msprop:design-time-name="faa74eb7-10d7-4ca1-a6d7-303f31f0513b" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDHocKy" msprop:FriendlyName="IDHocKy" msprop:DbColumnName="IDHocKy" msprop:design-time-name="c8030473-3a1f-4a8e-a486-afbd294b054d" type="xs:int" minOccurs="0" />
+                  <xs:element name="GioGiang" msprop:FriendlyName="GioGiang" msprop:DbColumnName="GioGiang" msprop:design-time-name="6ed13e61-3e4e-49db-be4e-41b11c773a04" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_THONGTIN" msprop:FriendlyName="THONGTIN" msprop:DbSchemaName="dbo" msprop:DbTableName="THONGTIN" msprop:design-time-name="2b30130c-ebda-40a0-a80e-5ea4e1e72204" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID" msprop:DbColumnName="ID" msprop:design-time-name="a76de908-7bed-479e-b8ab-93bd9d30c042" type="xs:int" />
+                  <xs:element name="MANHANVIEN" msprop:FriendlyName="MANHANVIEN" msprop:DbColumnName="MANHANVIEN" msprop:design-time-name="7feafd7e-cd24-422a-824a-c8fba79e4377" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="HOVATEN" msprop:FriendlyName="HOVATEN" msprop:DbColumnName="HOVATEN" msprop:design-time-name="153d8cc1-16d4-4723-903f-764e88b0128c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NGAYSINH" msprop:FriendlyName="NGAYSINH" msprop:DbColumnName="NGAYSINH" msprop:design-time-name="bac9cd72-a11b-498b-a2d4-d0804dd354c7" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="NOISINH" msprop:FriendlyName="NOISINH" msprop:DbColumnName="NOISINH" msprop:design-time-name="a40fa568-8fb7-410b-9473-8d32b87ba8b2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DIENTHOAI" msprop:FriendlyName="DIENTHOAI" msprop:DbColumnName="DIENTHOAI" msprop:design-time-name="2ceb5998-56c7-4d93-a1f6-f196995082f8" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="EMAIL" msprop:FriendlyName="EMAIL" msprop:DbColumnName="EMAIL" msprop:design-time-name="eddcb6ad-93a9-48a7-8e37-104cfba2b545" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SOCHUNGMINH" msprop:FriendlyName="SOCHUNGMINH" msprop:DbColumnName="SOCHUNGMINH" msprop:design-time-name="6212b72c-c02b-48b0-a75c-07b09c732322" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NGAYCAP" msprop:FriendlyName="NGAYCAP" msprop:DbColumnName="NGAYCAP" msprop:design-time-name="ca758b7d-e5b9-486c-93a0-6dbaf5c2990c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NOICAP" msprop:FriendlyName="NOICAP" msprop:DbColumnName="NOICAP" msprop:design-time-name="84d747a7-d9e2-4d1e-aade-59b95106faca" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SOPASSPORT" msprop:FriendlyName="SOPASSPORT" msprop:DbColumnName="SOPASSPORT" msprop:design-time-name="649a08d2-bd0a-4019-8049-8a3969104cca" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NGAYCAPPP" msprop:FriendlyName="NGAYCAPPP" msprop:DbColumnName="NGAYCAPPP" msprop:design-time-name="5b576d03-938a-40e0-b98b-d31c223ccc58" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NOICAPPP" msprop:FriendlyName="NOICAPPP" msprop:DbColumnName="NOICAPPP" msprop:design-time-name="857d3e9d-2379-4958-9369-186095f1a97b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IDDONVI" msprop:FriendlyName="IDDONVI" msprop:DbColumnName="IDDONVI" msprop:design-time-name="daacd8ec-d87d-4e51-b9a2-5eea862e314b" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDCHUCDANH" msprop:FriendlyName="IDCHUCDANH" msprop:DbColumnName="IDCHUCDANH" msprop:design-time-name="bea0671c-37b4-4a72-b424-b5aea5273faa" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDHOCHAM" msprop:FriendlyName="IDHOCHAM" msprop:DbColumnName="IDHOCHAM" msprop:design-time-name="e94f11a1-5891-441d-9a4b-c9453ead974f" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDHOCVI" msprop:FriendlyName="IDHOCVI" msprop:DbColumnName="IDHOCVI" msprop:design-time-name="cb3453f0-a967-426e-ac42-544c8a8c60a3" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDGIOITINH" msprop:FriendlyName="IDGIOITINH" msprop:DbColumnName="IDGIOITINH" msprop:design-time-name="b97ba728-be97-4acf-aa4a-0eb0ec17f190" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDTONGIAO" msprop:FriendlyName="IDTONGIAO" msprop:DbColumnName="IDTONGIAO" msprop:design-time-name="4cad309e-dfb9-41c6-a760-f047d91decec" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDQUOCTICH" msprop:FriendlyName="IDQUOCTICH" msprop:DbColumnName="IDQUOCTICH" msprop:design-time-name="52010c51-f74e-47d9-9ec1-ff6cdae07c7b" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDKETHON" msprop:FriendlyName="IDKETHON" msprop:DbColumnName="IDKETHON" msprop:design-time-name="fd3e70fa-fdf4-4e0b-bf57-0707e7d28a72" type="xs:int" minOccurs="0" />
+                  <xs:element name="HINHANH" msprop:FriendlyName="HINHANH" msprop:DbColumnName="HINHANH" msprop:design-time-name="d580a90a-d6cd-48dd-96d8-6dfa25b687d8" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NGOAINGU" msprop:FriendlyName="NGOAINGU" msprop:DbColumnName="NGOAINGU" msprop:design-time-name="70f0fc13-c534-4cbc-8faa-e4a13d93433d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IDCHINHTRI" msprop:FriendlyName="IDCHINHTRI" msprop:DbColumnName="IDCHINHTRI" msprop:design-time-name="120f2690-fd65-4165-8d00-b6ad8dd61d24" type="xs:int" minOccurs="0" />
+                  <xs:element name="SONHA" msprop:FriendlyName="SONHA" msprop:DbColumnName="SONHA" msprop:design-time-name="b570fadf-3fec-464c-b5ea-eca604452b37" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DUONG" msprop:FriendlyName="DUONG" msprop:DbColumnName="DUONG" msprop:design-time-name="15c750e4-9e33-402d-9c0f-dae71aed9b2e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="XA" msprop:FriendlyName="XA" msprop:DbColumnName="XA" msprop:design-time-name="f7ef4a33-ff86-48ff-bab2-0e895be42d7d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="HUYEN" msprop:FriendlyName="HUYEN" msprop:DbColumnName="HUYEN" msprop:design-time-name="276e9586-238f-4905-a81d-3694af5a045a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IDTINH" msprop:FriendlyName="IDTINH" msprop:DbColumnName="IDTINH" msprop:design-time-name="f4a22aa8-ec3d-47ae-89ff-4b38e351f4b6" type="xs:int" minOccurs="0" />
+                  <xs:element name="XANQ" msprop:FriendlyName="XANQ" msprop:DbColumnName="XANQ" msprop:design-time-name="6921baa7-9335-46ec-b851-3b0696eb458a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="HUYENNQ" msprop:FriendlyName="HUYENNQ" msprop:DbColumnName="HUYENNQ" msprop:design-time-name="4ddcc561-0e8c-4f87-baab-f3fe7c463975" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TINHNQ" msprop:FriendlyName="TINHNQ" msprop:DbColumnName="TINHNQ" msprop:design-time-name="78daa666-aa7b-48fc-9df1-0957287b9ebc" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimHocKy" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_DimMonHoc_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimMonHoc" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_DimNam_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimNam" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_FactGioGiang_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FactGioGiang" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_THONGTIN_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_THONGTIN" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:keyref name="FK_FactGioGiang_DimMonHoc" refer="dbo_DimMonHoc_Constraint1">
+          <xs:selector xpath=".//dbo_FactGioGiang" />
+          <xs:field xpath="IDMon" />
+        </xs:keyref>
+        <xs:keyref name="FK_FactGioGiang_DimHocKy" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FactGioGiang" />
+          <xs:field xpath="IDHocKy" />
+        </xs:keyref>
+        <xs:keyref name="FK_FactGioGiang_THONGTIN" refer="dbo_THONGTIN_Constraint1">
+          <xs:selector xpath=".//dbo_FactGioGiang" />
+          <xs:field xpath="IDNhanVien" />
+        </xs:keyref>
+        <xs:keyref name="FK_FactGioGiang_DimNam" refer="dbo_DimNam_Constraint1">
+          <xs:selector xpath=".//dbo_FactGioGiang" />
+          <xs:field xpath="IDNamHoc" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+  </Schema>
+</DataSourceView>

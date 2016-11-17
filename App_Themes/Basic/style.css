@@ -1,0 +1,13 @@
+ul.menunew {list-style:none; margin:0; padding:0}
+ul.menunew * {margin:0; padding:0}
+ul.menunew a {display:block; color:#000; text-decoration:none}
+ul.menunew li {position:relative; float:left; margin-right:2px}
+ul.menunew ul {position:absolute; top:26px; left:0; background:#d1d1d1; display:none; opacity:0; list-style:none}
+ul.menunew ul li {position:relative; border:1px solid #aaa; border-top:none; width:148px; margin:0}
+ul.menunew ul li a {display:block; padding:3px 7px 5px; background-color:#d1d1d1}
+ul.menunew ul li a:hover {background-color:#c5c5c5}
+ul.menunew ul ul {left:148px; top:-1px}
+ul.menunew .menulink {border:1px solid #aaa; padding:5px 7px 7px; font-weight:bold; background:url(http://3.bp.blogspot.com/_4fVBL4fjrFI/SbezNy2ao1I/AAAAAAAACuU/JqDnhT2GDe4/s1600/header.gif); width:134px}
+ul.menunew .menulink:hover, ul.menunew .menuhover {background:url(background:url(http://2.bp.blogspot.com/_4fVBL4fjrFI/SbezPOVoJ2I/AAAAAAAACuc/mplUEobDZlw/s1600/header_over.gif)}
+ul.menunew .sub {background:#d1d1d1 url(http://1.bp.blogspot.com/_4fVBL4fjrFI/SbezNihl_uI/AAAAAAAACuM/cFp8PsqbyhQ/s1600/arrow.gif) 136px 8px no-repeat}
+ul.menunew .topline {border-top:1px solid #aaa}

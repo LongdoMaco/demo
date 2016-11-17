@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageuser.master.cs" Inherits="user_MasterPage" %>
+
+<head runat="server">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<asp:ContentPlaceHolder id="head" runat="Server">
+ 
+</asp:ContentPlaceHolder>
+
+
+<title>
+	E - ADMINISTRATION
+</title>
+    <link href="../App_Themes/Basic/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+   
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            font-weight: bold;
+        }
+    </style>
+<link href="../App_Themes/usertheme/StyleSheet.css"rel="stylesheet" type="text/css">
+     
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-small;
+            font-weight: bold;
+        }
+        .style2
+        {
+            width: 143px;
+        }
+        .style4
+        {
+             
+            text-align:center;
+            height:80px;
+        }
+        .style6
+        {
+            color: #FFFFFF;
+            font-size:12px;
+        }
+        .style7
+        {
+            font-size: medium;
+            font-weight: bold;
+        }
+        .style8
+        {
+            width: 1000px;
+             min-height:800px;
+        }
+        </style>
+     
+    </head>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <body>
+    <form  runat ="server" id="Form1" >
+
+        
+    <div>
+        <table class="TableCenterMaster" width="100%" cellpadding="0" cellspacing="0">
+            <tbody>
+            <tr>
+                <td colspan="2" style="height: 50px;" class="style1">
+                    <div class="style4"  > 
+                         <asp:Label ID="lblcanhan" runat="server" style="font-weight: 500; color: #3366FF; font-size: xx-large">Trang cá nhân </asp:Label>                     
+                       <asp:Label ID="Label1" runat="server" style="font-weight: 500; color: #3366FF; font-size: xx-large"></asp:Label>
+                                                               
+                         <br />&nbsp;      
+                     
+                    </div>
+                    <hr>
+                    </td>
+            </tr>
+            <tr style=" min-height:600px">
+                <td valign="top" align="left" class="style2">
+                    <div id="ctl00_Accordion1" style="height: 300px; width: 148px;">
+	<div class="divframe_headSelected">
+		Thông tin cá nhân</div>
+		<div class="accoditionContent" style="display: block;">
+		
+                         <a href="../user/Default.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                            Thông tin cá nhân</a><br>
+                        <a href="../user/changepass.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                            Thay đổi mật khẩu</a><br>
+                             <a href="../Admin/Default.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                            Admin CP</a><br>
+                       
+                        
+                        
+	</div>    
+	<div class="divframe_headSelected">
+		Chức năng</div>
+		<div class="accoditionContent" style="display: block;">
+            <a href="../user/lichtuan.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                           Lịch tuần</a><br>
+		 <a href="../user/xemcongvan.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                           Xem công văn</a><br>
+            <a href="../user/ranuocngoai.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                          QT đi công tác</a><br>
+                        <a href="../user/dangtin.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                            Đăng tin</a><br>
+                             <a href="../user/giaotrinh.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                            Đăng giáo trình</a><br>
+                              <a href="../user/khoahoc.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                            Đăng đề tài khoa học</a><br>
+                              <a href="../user/tienluong.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                            Xem lương</a><br>
+                              <a href="../user/khenthuong.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                            Xem khen thưởng</a><br>
+                            <a href="/Dangnhap.aspx"><img src="../App_Themes/usertheme/images/blue_bubble.png" border="0"> 
+                            Thoát</a><br
+		
+                        
+	</div>    
+	   <div style=" clear:both"></div>
+                    </td>
+                <td style="padding-left: 10px;" valign="top" class="style8">
+                    
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            &nbsp;</p>
+                    </asp:ContentPlaceHolder>
+                        </td>
+                        
+            </tr>
+               <div style=" clear:both"></div>
+               <tr>
+            <td colspan="2" style="height: 30px;  background-color:#24A1D4; text-align: right;" 
+                    class="style7" valign="top">                    
+                    <span class="style6">ĐẠI HỌC BÁCH KHOA ĐÀ NẴNG </span>
+                    <br class="style6" />
+                    <span class="style6">54, NGUYỄN LƯƠNG BẰNG, Q. LIÊN CHIỂN, TP. ĐÀ NẴNG</span></td>
+                    </tr>
+         
+        </tbody>
+     
+        </table>
+        
+    </div>
+    
+</form>
+</body></html>

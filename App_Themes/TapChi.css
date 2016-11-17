@@ -1,0 +1,70 @@
+﻿.item
+{
+	
+	margin:5px;
+	border:solid 1px #CCCCCC;
+	padding:2px;
+}
+.left
+{
+	width:14%;
+	float:left;
+	padding:1px;
+	margin:1px;
+
+}
+.right
+{
+	float:left;
+	text-align:left;
+	 padding:2px; 
+	 width:80%;
+}
+.right .title
+{
+	text-align:left;
+}
+.quote
+{
+	width:100%;
+
+}
+.Author
+{
+	width:100%;
+}
+.continue
+{
+	text-align:left;
+	 padding-left:1px;
+	 text-decoration:none;
+}
+.txttieude
+{
+	font:arial bold ;
+	color:#769EE3;
+	text-decoration:none;
+	
+}
+.txtauthor
+{
+	color:#8A2BE2;
+	
+}
+.txtngaygoi
+{
+ font-family:Arial,Helvetica,sans-serif;
+ font-weight:normal;
+}
+.txttomtat
+{
+font-family:Arial,Helvetica,sans-serif;
+ font-weight:normal;
+}
+.lblloai
+{
+font-family:Arial,Helvetica,sans-serif;
+font-weight:normal;
+color:#769EE3;
+
+}

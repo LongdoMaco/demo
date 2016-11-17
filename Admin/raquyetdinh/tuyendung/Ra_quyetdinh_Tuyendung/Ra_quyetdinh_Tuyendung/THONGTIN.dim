@@ -1,0 +1,1040 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e89a1562-e2cf-41fc-b53e-0fe9aacb313e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>THONGTIN</ID>
+  <Name>THONGTIN</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="53fce61b-cf30-4da3-bc84-a1c664b2cda7">
+    <DataSourceViewID>DATA</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a0093662-9390-40ff-9af9-c9cffcd97581">
+      <ID>THONGTIN</ID>
+      <Name>THONGTIN</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>353</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="12769355-c077-4505-896d-111c0461e878">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="162471d4-c7c1-4189-9b8a-a143053af276">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="082f8f89-ee81-4ced-a7b0-b1ae2b407bdb">
+          <AttributeID>MANHANVIEN</AttributeID>
+          <Name>MANHANVIEN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="743add53-55bc-41c3-b2c8-efcfa3ee2f49">
+          <AttributeID>HOVATEN</AttributeID>
+          <Name>HOVATEN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="535ba08d-1241-4c69-91f7-e8e907bf7992">
+          <AttributeID>NGAYSINH</AttributeID>
+          <Name>NGAYSINH</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d056e441-c2d0-4de2-b371-297019d39560">
+          <AttributeID>NOISINH</AttributeID>
+          <Name>NOISINH</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="db9de1bd-910d-4d6e-b4ed-bcdf87c6e61d">
+          <AttributeID>DIENTHOAI</AttributeID>
+          <Name>DIENTHOAI</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f2cbeab4-011a-4329-ae0f-7774f823a5be">
+          <AttributeID>EMAIL</AttributeID>
+          <Name>EMAIL</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e11a550f-2b33-40b5-8686-c85ee4ea51dd">
+          <AttributeID>SOCHUNGMINH</AttributeID>
+          <Name>SOCHUNGMINH</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6e314f1-8219-4571-a5de-7469033d10d8">
+          <AttributeID>NGAYCAP</AttributeID>
+          <Name>NGAYCAP</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="de9d6c83-a81e-4e69-b1df-7e334a2464d9">
+          <AttributeID>NOICAP</AttributeID>
+          <Name>NOICAP</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3bdd5555-0833-4f75-8b3e-f5c29c1fa718">
+          <AttributeID>SOPASSPORT</AttributeID>
+          <Name>SOPASSPORT</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="29e414c5-4a99-4f3b-ad63-f197639e88c5">
+          <AttributeID>NGAYCAPPP</AttributeID>
+          <Name>NGAYCAPPP</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b1df7349-327c-4250-947d-d9150d391e5e">
+          <AttributeID>NOICAPPP</AttributeID>
+          <Name>NOICAPPP</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2d8bff61-99b1-4a4e-97f2-10512fa45e64">
+          <AttributeID>IDCHUCDANH</AttributeID>
+          <Name>IDCHUCDANH</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6f8df95e-1a3f-4729-9cae-cfee86ee7f05">
+          <AttributeID>HINHANH</AttributeID>
+          <Name>HINHANH</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e285d869-f64c-461b-b267-2b1fdc777baa">
+          <AttributeID>NGOAINGU</AttributeID>
+          <Name>NGOAINGU</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="275a384b-129d-49c1-b370-095e82fda8cb">
+          <AttributeID>SONHA</AttributeID>
+          <Name>SONHA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="570c85f6-18f1-48e8-9f5d-ab2b38927451">
+          <AttributeID>DUONG</AttributeID>
+          <Name>DUONG</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1a0ec205-a58a-4e7a-b1e8-3bf64de791bc">
+          <AttributeID>XA</AttributeID>
+          <Name>XA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4eb81edf-cc8f-4170-bfdd-13dd33415e70">
+          <AttributeID>HUYEN</AttributeID>
+          <Name>HUYEN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3688a8a8-199d-44fe-9fb6-c5d4d2146f02">
+          <AttributeID>XANQ</AttributeID>
+          <Name>XANQ</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e6b6211a-533a-42a3-b7a9-61722a36fa4b">
+          <AttributeID>HUYENNQ</AttributeID>
+          <Name>HUYENNQ</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="118a1a88-1a26-4ca5-80f9-deec5646cd06">
+          <AttributeID>TINHNQ</AttributeID>
+          <Name>TINHNQ</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="02583745-fdbf-459a-b912-d3b28b96c56f">
+          <AttributeID>IDHOCVI</AttributeID>
+          <Name>IDHOCVI</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c4efda34-beef-446e-b415-694391c0a762">
+          <AttributeID>HOCHAM</AttributeID>
+          <Name>HOCHAM</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fc2df7db-8cad-4bfc-8f94-2981986575ea">
+          <AttributeID>IDQUOCTICH</AttributeID>
+          <Name>IDQUOCTICH</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bd1dace5-08df-4234-bae1-0a5566b68894">
+          <AttributeID>CHINHTRI</AttributeID>
+          <Name>CHINHTRI</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0a1a3cac-02be-4605-b43a-700c397950d4">
+          <AttributeID>IDTINH</AttributeID>
+          <Name>IDTINH</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="23498293-04c7-43be-be31-4f2a69f49943">
+          <AttributeID>KETHON</AttributeID>
+          <Name>KETHON</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f95dddef-04dd-4a49-8abf-9dcc349dc830">
+          <AttributeID>GIOITINH</AttributeID>
+          <Name>GIOITINH</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f7fe106f-97df-4a44-bc47-47aff2cc2abe">
+          <AttributeID>DONVI</AttributeID>
+          <Name>DONVI</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="32064f61-f4ad-4760-953f-957a25872bae">
+          <AttributeID>TONGIAO</AttributeID>
+          <Name>TONGIAO</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="bd433701-4534-4ff2-96cf-cd70be59c803">
+      <ID>MANHANVIEN</ID>
+      <Name>MANHANVIEN</Name>
+      <EstimatedCount>338</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="28d9b4af-4b14-4350-a2ac-965788f1c29f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cdd58009-cfb2-4158-a817-6f7f24334600">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>MANHANVIEN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="892520ad-5657-4e07-ab05-09c5a426847a">
+      <ID>HOVATEN</ID>
+      <Name>HOVATEN</Name>
+      <EstimatedCount>308</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a000f180-8af8-47f0-9793-dc17835f3c73">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c025bb36-1896-4b3e-978c-9260fbf27a8b">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>HOVATEN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="219993d7-924f-48b0-8387-2fdd9c699ee8">
+      <ID>NGAYSINH</ID>
+      <Name>NGAYSINH</Name>
+      <EstimatedCount>262</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be5b8833-6ade-4590-8ce4-cad251962638">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1319f8b2-99eb-49ec-8e17-c96eb00ecbc2">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>NGAYSINH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="cb01171d-dbdd-49c6-8c88-0a472e6796a4">
+      <ID>NOISINH</ID>
+      <Name>NOISINH</Name>
+      <EstimatedCount>51</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8ac945bc-0ea1-45b8-a17d-eb5ac5feb5c4">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="801830d3-85a8-4ff5-9f89-cafc89d34385">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>NOISINH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="d7f51a4b-f353-4054-aa3d-82e4a1fd6025">
+      <ID>DIENTHOAI</ID>
+      <Name>DIENTHOAI</Name>
+      <EstimatedCount>164</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e0aba8b9-b55a-4a1c-918c-dd4cf3e7034d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2834dce1-7d12-444b-9db1-53d25796cd56">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>DIENTHOAI</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="16a8254b-185e-463b-af9e-85e91c4bcc40">
+      <ID>EMAIL</ID>
+      <Name>EMAIL</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b3295575-7c29-405f-873d-85f5f33819c5">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="da076ebe-2bba-4e70-8e32-81e8ad87f7a3">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>EMAIL</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="2bf716dc-366d-4d2b-9c55-95919316a02a">
+      <ID>SOCHUNGMINH</ID>
+      <Name>SOCHUNGMINH</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6a3833ca-eaef-47e4-8a29-fd228414e1f9">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f67dffcc-2cea-43ec-8cd9-76b63ce2286f">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>SOCHUNGMINH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="076c7e13-f6e7-404a-b857-00e6553e6423">
+      <ID>NGAYCAP</ID>
+      <Name>NGAYCAP</Name>
+      <EstimatedCount>7</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a1c4da49-d7f4-4527-ad49-d47bfe3eec55">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3f91f00-1db2-48d3-817c-6b78d8c9b75e">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>NGAYCAP</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="4fa5846c-d119-4f08-b579-efa3006a32ae">
+      <ID>NOICAP</ID>
+      <Name>NOICAP</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5b3f51fa-c65a-4b02-8e49-69df24038292">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95e843d7-7557-4269-a5e7-4708dd231f4f">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>NOICAP</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="73557367-8e9e-4d2b-a1bb-ed1c8993762f">
+      <ID>SOPASSPORT</ID>
+      <Name>SOPASSPORT</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f7b46665-7aa7-4d1e-9f57-43e88c579c2e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e4730a7-550b-4d5d-9248-a2263892b508">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>SOPASSPORT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="2500ce81-b847-4c33-b725-e27ab6fe3491">
+      <ID>NGAYCAPPP</ID>
+      <Name>NGAYCAPPP</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f704a271-ec8c-4bd1-b4b0-1492f5d3e6fa">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d38b9bd1-cd04-4345-8507-836c4d9f836e">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>NGAYCAPPP</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="361a2910-55c9-4890-b130-d54fb16aa36a">
+      <ID>NOICAPPP</ID>
+      <Name>NOICAPPP</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e42f75f3-bc3c-4a08-846b-7d3c951fc698">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f47ef1a-9942-4e1c-9d9a-62d5ddc3b9db">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>NOICAPPP</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="13d568e3-d5fb-44f7-bd6c-82f19a72bf20">
+      <ID>IDCHUCDANH</ID>
+      <Name>IDCHUCDANH</Name>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b9a58aa-e5ec-4c5f-b4c0-dbf8f460434d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ba4e784f-5b55-416f-bc51-4e1c772e7d1b">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>IDCHUCDANH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="b7a4a98b-66b0-4551-8099-7e10294fd45a">
+      <ID>HINHANH</ID>
+      <Name>HINHANH</Name>
+      <EstimatedCount>1</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6a113867-632d-4f1e-a6e7-82cea9efffc6">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b301a23-9663-441a-bcb8-a30f15dc850d">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>HINHANH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="65f78ae6-c2fa-4fd0-a023-16db6eda343e">
+      <ID>NGOAINGU</ID>
+      <Name>NGOAINGU</Name>
+      <EstimatedCount>50</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4ec5fe48-0924-47f7-9f12-d7db8eb32ebb">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d2c92e8-f999-420b-8f56-43309e4ca09a">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>NGOAINGU</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="5d9293dc-8521-4e9e-b695-6fc6d682410b">
+      <ID>SONHA</ID>
+      <Name>SONHA</Name>
+      <EstimatedCount>123</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="57f2cd71-512f-4089-a487-422ad7e4be6b">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8181149f-8e49-4ba3-aa13-b82159da7bd4">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>SONHA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="996a5819-8864-452b-ae23-e3ab9f0cce4f">
+      <ID>DUONG</ID>
+      <Name>DUONG</Name>
+      <EstimatedCount>97</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f0f1277a-e060-42a1-8039-bc9dc62411a8">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dbabeb11-c646-4003-899a-223c587aa2be">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>DUONG</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="0faacc7f-bd2b-43c7-888b-8e19b8d04cd7">
+      <ID>XA</ID>
+      <Name>XA</Name>
+      <EstimatedCount>57</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e99afe72-01a5-4039-ba57-ac6d11810742">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0a5bdc6-650a-4a50-9f6c-152dddb11a01">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>XA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="169d5776-ad0b-44a0-9cc8-b0d3c8671212">
+      <ID>HUYEN</ID>
+      <Name>HUYEN</Name>
+      <EstimatedCount>18</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b70b454-b763-456a-88da-a2b1f6d7d488">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4192d65-e7f1-4aa8-b821-0f28c0f5ade8">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>HUYEN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="f0338dbb-dba3-49b8-8d26-167d2b346e72">
+      <ID>XANQ</ID>
+      <Name>XANQ</Name>
+      <EstimatedCount>138</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a4689e0d-6eae-4d74-9a99-0c6b4a4f410f">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e383d06d-1940-47c9-b736-cb195e279c2e">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>XANQ</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="c713994f-da18-4f93-a5a1-531babe1545a">
+      <ID>HUYENNQ</ID>
+      <Name>HUYENNQ</Name>
+      <EstimatedCount>89</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be377bd2-d876-4611-ab10-72d1d0e7bf35">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc97b997-25f8-402d-82c8-06288a619d6b">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>HUYENNQ</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="905c5ee4-bd62-49d6-824e-ffa81df2c13a">
+      <ID>TINHNQ</ID>
+      <Name>TINHNQ</Name>
+      <EstimatedCount>21</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1a716a0c-6fe3-4cba-b4f8-08259e27f022">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="37b76634-6069-4600-8683-1370c91c5a0c">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>TINHNQ</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="b0c7e0b1-5235-4519-8390-f34ce3dd45c8">
+      <ID>IDHOCVI</ID>
+      <Name>IDHOCVI</Name>
+      <EstimatedCount>9</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="edf24ec6-d4d3-4432-94cf-8925de19b87e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7a47ce99-1311-4232-b3d2-5e22a12c664f">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>IDHOCVI</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="3d5bf495-6b73-49cd-b82a-009e653fc848">
+      <ID>HOCHAM</ID>
+      <Name>HOCHAM</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="29fbb49f-004a-4e16-9611-40829e8eea44">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8533babf-abfa-4885-9825-f56ce2c2de94">
+            <TableID>dbo_HOCHAM</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1420d304-2b18-4d1c-986d-3d5bbc57f805">
+          <AttributeID>HOCHAM - HOCHAM</AttributeID>
+          <Name>HOCHAM - HOCHAM</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="f0f40e4a-2d5d-41e5-a890-407548105e32">
+      <ID>HOCHAM - HOCHAM</ID>
+      <Name>HOCHAM - HOCHAM</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9c5ed97d-ac47-44db-871e-ac8dbe4a9732">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a771481-99dd-41db-b24a-705e612197a0">
+            <TableID>dbo_HOCHAM</TableID>
+            <ColumnID>HOCHAM</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="033da4e1-2b99-4401-b4c4-8887c9005cf6">
+      <ID>IDQUOCTICH</ID>
+      <Name>IDQUOCTICH</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1defe439-64d1-43ad-b571-5d01d286dbc3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6e572b8c-bded-4940-9842-37be4d3f613c">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>IDQUOCTICH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="d24dbbff-5dd3-40e3-9bbc-d03a778a603e">
+      <ID>CHINHTRI</ID>
+      <Name>CHINHTRI</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fe36c584-cb8b-4a34-bac6-5a690cea145d">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ae839d2-c1c6-4d43-9cd1-9911f598801a">
+            <TableID>dbo_CHINHTRI</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f554ccdd-2846-4642-a5f9-649e1299f487">
+          <AttributeID>CHINHTRI - CHINHTRI</AttributeID>
+          <Name>CHINHTRI - CHINHTRI</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="007bd8b8-859e-42f2-b027-6a2d95ed7c10">
+      <ID>CHINHTRI - CHINHTRI</ID>
+      <Name>CHINHTRI - CHINHTRI</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3a2ac4bf-cd5a-426f-9385-958e41e11031">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="41401313-5188-404e-862e-8a04bf279d24">
+            <TableID>dbo_CHINHTRI</TableID>
+            <ColumnID>CHINHTRI</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="5ce9e9de-d6bf-4c95-8a5d-da5089b8ba60">
+      <ID>IDTINH</ID>
+      <Name>IDTINH</Name>
+      <EstimatedCount>7</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f510bfb4-3ad9-437f-bc39-70b39d5eb200">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e639a4c0-738b-4ede-8b12-64f1cea04c8f">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>IDTINH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce072f62-d637-4e96-89f6-c16413ce5013">
+      <ID>KETHON</ID>
+      <Name>KETHON</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7e346fe1-419f-4375-a954-8cdfb2556e3e">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc870e14-a18a-4a3f-a109-74ed77854763">
+            <TableID>dbo_KETHON</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="681f2b5b-7273-4d4d-b29c-f744649186d4">
+          <AttributeID>KETHON - KETHON</AttributeID>
+          <Name>KETHON - KETHON</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="9a8e3ced-6672-40cf-a2fa-b8a837948c82">
+      <ID>KETHON - KETHON</ID>
+      <Name>KETHON - KETHON</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="02ac8460-8280-40b4-8135-fb7dd215e07e">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd21583c-d259-4f2a-b6b9-c7b544f0db55">
+            <TableID>dbo_KETHON</TableID>
+            <ColumnID>KETHON</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="866a79e5-1b45-4d7c-83ba-0c74c8808dca">
+      <ID>GIOITINH</ID>
+      <Name>GIOITINH</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1f638c2f-45d9-46dd-ab0c-839f3fdc2565">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7cef3ccf-0d46-4d08-bbbf-f8e343639712">
+            <TableID>dbo_GIOITINH</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8d678733-8e88-4fd7-a77b-c53e98d902f4">
+          <AttributeID>GIOITINH - GIOITINH</AttributeID>
+          <Name>GIOITINH - GIOITINH</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="7a9308b6-f4b5-42e1-9162-8b64d09d4e88">
+      <ID>GIOITINH - GIOITINH</ID>
+      <Name>GIOITINH - GIOITINH</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8ba17fd0-d5a2-438d-9a6f-d540bf354580">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2089138f-1729-4272-9b47-4fb780045daa">
+            <TableID>dbo_GIOITINH</TableID>
+            <ColumnID>GIOITINH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="9d3aa3bc-e5e1-44f6-94ae-cb5014f74e02">
+      <ID>DONVI</ID>
+      <Name>DONVI</Name>
+      <EstimatedCount>26</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fbe758b7-4c13-4cf2-88ea-916ac6068583">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3a621f0f-1484-4b66-865f-41e8091e2c7d">
+            <TableID>dbo_DONVI</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e35ef9b2-971d-4214-93ae-ba098ee1f501">
+          <AttributeID>DONVI - DONVI</AttributeID>
+          <Name>DONVI - DONVI</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="84e49fb5-2cbc-491a-87a5-38ec5e2ac7bb">
+          <AttributeID>MADONVI</AttributeID>
+          <Name>MADONVI</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="e882d7b8-502a-4ed8-98ec-e6e641b4d53e">
+      <ID>DONVI - DONVI</ID>
+      <Name>DONVI - DONVI</Name>
+      <EstimatedCount>26</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8b094076-026a-4c8f-b141-0ece15570f50">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="458220dc-7018-4e35-9f3f-357d9a2808f3">
+            <TableID>dbo_DONVI</TableID>
+            <ColumnID>DONVI</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="494354df-bb09-4d26-8cc4-119fe17154cd">
+      <ID>MADONVI</ID>
+      <Name>MADONVI</Name>
+      <EstimatedCount>25</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="44f37247-4f32-4876-aa8f-b451133690a2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d3d6c9d-c5ae-4c18-8f6f-d7b99e7a7c53">
+            <TableID>dbo_DONVI</TableID>
+            <ColumnID>MADONVI</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="08608f88-691b-4796-b9f8-3b08f199311c">
+      <ID>TONGIAO</ID>
+      <Name>TONGIAO</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5a20f22c-7638-4ed6-abf4-3970318765b6">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c1699a63-292d-4acb-9818-a4982f40bf92">
+            <TableID>dbo_TONGIAO</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a38a8452-07ce-42bd-9a3c-e58c9aa86df1">
+          <AttributeID>TONGIAO - TONGIAO</AttributeID>
+          <Name>TONGIAO - TONGIAO</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="6a07f2fa-ff54-4a9a-ba0d-703dd395cb97">
+      <ID>TONGIAO - TONGIAO</ID>
+      <Name>TONGIAO - TONGIAO</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ac3950f1-9bb2-4874-9197-636549d0c2fb">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b88ffce-8a19-4c41-8f11-d74ba7f3c154">
+            <TableID>dbo_TONGIAO</TableID>
+            <ColumnID>TONGIAO</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="870c2300-58e4-4cf5-b51c-d4edfb6931c5">
+      <ID>GIOITINH - THONGTIN</ID>
+      <Name>GIOITINH - THONGTIN</Name>
+      <Levels>
+        <Level dwd:design-time-name="1bbed6a8-a636-4726-9da0-7f6b672811db">
+          <ID>GIOITINH</ID>
+          <Name>GIOITINH</Name>
+          <SourceAttributeID>GIOITINH</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4cc98f69-df62-4a3e-9ec8-8b291f12d968">
+          <ID>THONGTIN</ID>
+          <Name>THONGTIN</Name>
+          <SourceAttributeID>THONGTIN</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="4ab70526-400d-41f2-be19-0ad5e0cad692">
+      <ID>TONGIAO - THONGTIN</ID>
+      <Name>TONGIAO - THONGTIN</Name>
+      <Levels>
+        <Level dwd:design-time-name="6f9bbf45-f269-4356-878c-8f72cc57f58e">
+          <ID>TONGIAO</ID>
+          <Name>TONGIAO</Name>
+          <SourceAttributeID>TONGIAO</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a444b132-a88a-43e5-8a44-1079c1f3bd98">
+          <ID>THONGTIN</ID>
+          <Name>THONGTIN</Name>
+          <SourceAttributeID>THONGTIN</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="d2dfdd54-ec1c-42cd-ab3c-c7c885831fbe">
+      <ID>KETHON - THONGTIN</ID>
+      <Name>KETHON - THONGTIN</Name>
+      <Levels>
+        <Level dwd:design-time-name="900a8cb6-51b2-4b0c-b2d2-e0056073d129">
+          <ID>KETHON</ID>
+          <Name>KETHON</Name>
+          <SourceAttributeID>KETHON</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="68dc1813-ef9b-4f30-9adc-8c98f5988b05">
+          <ID>THONGTIN</ID>
+          <Name>THONGTIN</Name>
+          <SourceAttributeID>THONGTIN</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="bf778463-eb30-474d-8048-334bbad132a0">
+      <ID>EMAIL - DIENTHOAI</ID>
+      <Name>EMAIL - DIENTHOAI</Name>
+      <Levels>
+        <Level dwd:design-time-name="9af9089c-892b-4f04-b834-8d232c0a0354">
+          <ID>EMAIL</ID>
+          <Name>EMAIL</Name>
+          <SourceAttributeID>EMAIL</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7a194407-8c71-4b97-a711-c898b3aa5e3d">
+          <ID>DIENTHOAI</ID>
+          <Name>DIENTHOAI</Name>
+          <SourceAttributeID>DIENTHOAI</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="55a1a94d-08cd-4200-8456-77c2ed33b078">
+          <ID>THONGTIN</ID>
+          <Name>THONGTIN</Name>
+          <SourceAttributeID>THONGTIN</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="1f4e6eb6-329e-4c19-a066-bc64ef1afa72">
+      <ID>DONVI - THONGTIN</ID>
+      <Name>DONVI - THONGTIN</Name>
+      <Levels>
+        <Level dwd:design-time-name="4ec95954-e551-42bc-9cf1-c75fbd8e5796">
+          <ID>DONVI</ID>
+          <Name>DONVI</Name>
+          <SourceAttributeID>DONVI</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2399f14d-642e-4f07-ab72-e828648cb821">
+          <ID>THONGTIN</ID>
+          <Name>THONGTIN</Name>
+          <SourceAttributeID>THONGTIN</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="14e5ff47-27c1-4c2b-a080-ca91112e1d9b">
+      <ID>NOICAP - NGAYCAP</ID>
+      <Name>NOICAP - NGAYCAP</Name>
+      <Levels>
+        <Level dwd:design-time-name="95b97163-2c4b-4042-9651-b468a4afba12">
+          <ID>NOICAP</ID>
+          <Name>NOICAP</Name>
+          <SourceAttributeID>NOICAP</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4c201ca4-b74f-4a3c-8462-06c08657d458">
+          <ID>NGAYCAP</ID>
+          <Name>NGAYCAP</Name>
+          <SourceAttributeID>NGAYCAP</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0b8a2629-215f-49ef-b4df-b5e51451f6cf">
+          <ID>THONGTIN</ID>
+          <Name>THONGTIN</Name>
+          <SourceAttributeID>THONGTIN</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="efc9890c-9e77-4693-b226-cfaad8f117fb">
+      <ID>SOCHUNGMINH - NGAYCAP</ID>
+      <Name>SOCHUNGMINH - NGAYCAP</Name>
+      <Levels>
+        <Level dwd:design-time-name="4d18d3a3-3243-4ebe-a131-64a6971c4a84">
+          <ID>SOCHUNGMINH</ID>
+          <Name>SOCHUNGMINH</Name>
+          <SourceAttributeID>SOCHUNGMINH</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="32243608-9aa9-4f15-a8d5-7e5c5e47dfd5">
+          <ID>NGAYCAP</ID>
+          <Name>NGAYCAP</Name>
+          <SourceAttributeID>NGAYCAP</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="836a0de7-2872-460c-b5f1-27be4b4ff1c3">
+          <ID>THONGTIN</ID>
+          <Name>THONGTIN</Name>
+          <SourceAttributeID>THONGTIN</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="5bb29483-9b5e-4db3-9c9b-4d52c13e825b">
+      <ID>CHINHTRI - THONGTIN</ID>
+      <Name>CHINHTRI - THONGTIN</Name>
+      <Levels>
+        <Level dwd:design-time-name="0eca30e0-8a24-42da-895c-cef7a245c9ed">
+          <ID>CHINHTRI</ID>
+          <Name>CHINHTRI</Name>
+          <SourceAttributeID>CHINHTRI</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="030ecae6-0eea-47cc-8ea2-509e7f971d52">
+          <ID>THONGTIN</ID>
+          <Name>THONGTIN</Name>
+          <SourceAttributeID>THONGTIN</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="69cc9f30-be9d-4a69-8608-68acdfdee372">
+      <ID>HOCHAM - THONGTIN</ID>
+      <Name>HOCHAM - THONGTIN</Name>
+      <Levels>
+        <Level dwd:design-time-name="1e647036-1973-4f39-a175-3737ab899db0">
+          <ID>HOCHAM</ID>
+          <Name>HOCHAM</Name>
+          <SourceAttributeID>HOCHAM</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4ce47a2a-1c78-4e39-98d9-ae8012ca051d">
+          <ID>THONGTIN</ID>
+          <Name>THONGTIN</Name>
+          <SourceAttributeID>THONGTIN</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

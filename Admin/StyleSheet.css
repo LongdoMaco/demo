@@ -1,0 +1,57 @@
+﻿body 
+{
+	padding: 0px;
+	text-align: center;
+	margin:0px;
+	background-color:#EFEFEF;
+	background-repeat:repeat-x; 
+	font: 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+a {
+	font-family:Tahoma;
+	font-size:13px;
+	text-decoration: none;
+ 	color:#303030;
+}
+a:hover {
+	font-size: 13px;
+	COLOR:Maroon;
+ 	font-family: Tahoma;
+ 	border-bottom:1px solid #ddd;
+}
+
+.TableCenter
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fff;
+}
+.divtopnavleft
+{
+	width:500px;
+	float:left;
+}
+.divtopnavright
+{
+	width:500px;
+	float:right;
+}
+.divframe
+{
+	position:relative;
+	border: 1px solid #CCC;
+	padding:1px;
+	margin: 0px 0px 0px 0px;
+}
+.divframe_head
+{
+	background: #fff url(image/Title_bg.jpg);
+	line-height:24px;
+	height:25px;
+	border-bottom: 1px solid #CCC;
+	margin: 0px 0px 0px 0px;
+	padding-left:20px;
+	font-weight:bold;
+}

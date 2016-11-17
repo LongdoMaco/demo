@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UNI", "http://localhost/UNI", "{C4E90174-D3B4-4673-AD97-84AF20528F2E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/UNI"
+		Debug.AspNetCompiler.PhysicalPath = "..\UNI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UNI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UNI"
+		Release.AspNetCompiler.PhysicalPath = "..\UNI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UNI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\UNI\"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/UNI"
+		Debug.AspNetCompiler.PhysicalPath = "..\UNI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UNI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UNI"
+		Release.AspNetCompiler.PhysicalPath = "..\UNI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UNI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\UNI\"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UNISetup", "UNI.sln", "{9328BCAC-495B-4EB8-A4A4-7B225FE76660}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E90174-D3B4-4673-AD97-84AF20528F2E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{C4E90174-D3B4-4673-AD97-84AF20528F2E}.Debug|.NET.Build.0 = Debug|.NET
+		{C4E90174-D3B4-4673-AD97-84AF20528F2E}.Release|.NET.ActiveCfg = Release|.NET
+		{C4E90174-D3B4-4673-AD97-84AF20528F2E}.Release|.NET.Build.0 = Release|.NET
+		{9328BCAC-495B-4EB8-A4A4-7B225FE76660}.Debug|.NET.ActiveCfg = Debug
+		{9328BCAC-495B-4EB8-A4A4-7B225FE76660}.Release|.NET.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,316 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="75f3d3fa-8d5f-4009-95b4-76432ddcbd79" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DATA</ID>
+  <Name>DATA</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="3f6c3cf7-1adc-4933-af90-d0eb4136482b">
+      <ID>Dim Nam</ID>
+      <Name>Chiều Năm học</Name>
+      <DimensionID>Dim Nam</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="92a14c55-4d1a-45e8-a8de-bb72dfbd781d">
+          <AttributeID>Dim Nam</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3fd66015-9dee-4b56-b1eb-b0c8b1c38349">
+          <AttributeID>Nam</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3dbea81c-0afa-4046-b1eb-b240f35ba649">
+      <ID>THONGTIN</ID>
+      <Name>Chiều Nhân viên</Name>
+      <DimensionID>THONGTIN</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8019852a-4e1e-4f9b-9dfe-206c65bccf33">
+          <AttributeID>THONGTIN</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3fef1d86-72a5-413c-bba2-14a06f17ea0c">
+          <AttributeID>MANHANVIEN</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="01853a5e-c2e6-4ef4-adb3-63d4a459d436">
+          <AttributeID>HOVATEN</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bf66d959-ec72-4a77-9cf7-ad6e0ac28de2">
+          <AttributeID>NGAYSINH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63cca483-b539-4c6a-b9f5-611f00110b9a">
+          <AttributeID>NOISINH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="56dbff86-9bda-4e09-a09c-754e647627ca">
+          <AttributeID>DIENTHOAI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9cf356e3-3eb7-4310-a3d5-a63401e595c4">
+          <AttributeID>EMAIL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aaa26d16-3dd6-4807-858b-a37603d9526f">
+          <AttributeID>SOCHUNGMINH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a28f1643-ae4b-420d-b14a-7ba3044f9a8c">
+          <AttributeID>NGAYCAP</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c3f4fb7d-a5f5-42fb-9a59-a4f9cab1ec08">
+          <AttributeID>NOICAP</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6dbea92-905d-4c0f-b3f9-c535692869c4">
+          <AttributeID>SOPASSPORT</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e48ce233-d32e-4f6d-8226-8b727dc3ac6b">
+          <AttributeID>NGAYCAPPP</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aa0aac30-c521-4827-a66e-386db49ee9a5">
+          <AttributeID>NOICAPPP</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c23b5153-0c26-408f-8734-f01871aafd13">
+          <AttributeID>IDDONVI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a60efa7-4053-498c-b1e2-8f3c127c1ad2">
+          <AttributeID>IDCHUCDANH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="251cb4f9-7d38-4640-acfa-24ef4cef7883">
+          <AttributeID>IDHOCHAM</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="91d06819-1a18-426c-bee2-76e6f6faf786">
+          <AttributeID>IDHOCVI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ee911d0-7006-4384-b9d6-0a5299b8e3c9">
+          <AttributeID>IDGIOITINH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d51f1d5-f088-46dd-9426-17f0873d28c8">
+          <AttributeID>IDTONGIAO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e57811a4-cbaa-4439-a632-2865cb6cdd41">
+          <AttributeID>IDQUOCTICH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="574ba608-6d03-4a4d-ac83-89b267dbfdc3">
+          <AttributeID>IDKETHON</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0082c41c-7cc6-4b53-97af-013c301f007b">
+          <AttributeID>HINHANH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da4c5e72-0bc5-402f-8fd8-8ce8f5cf6cc3">
+          <AttributeID>NGOAINGU</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8dd12225-d041-4996-a6cf-ffde23a87fc8">
+          <AttributeID>IDCHINHTRI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d531c5fc-b737-4027-b156-793ff2818cc8">
+          <AttributeID>SONHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4438425c-edae-4f08-92e1-ed09017d12ec">
+          <AttributeID>DUONG</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b79d064f-fa9e-40b2-8778-c9177d1b39cb">
+          <AttributeID>XA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b3efefda-a8d7-4cf1-907f-4220de8b1411">
+          <AttributeID>HUYEN</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a28b70a2-58de-4828-9ed2-b4dbfe901d51">
+          <AttributeID>IDTINH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8bdddb0c-0e5e-4fff-8b64-a510353d6b2f">
+          <AttributeID>XANQ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee2bb86f-10e7-467a-9ce0-8df6430a4cd4">
+          <AttributeID>HUYENNQ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ecc474a2-bb1c-46c3-bf8a-e8172b0d1217">
+          <AttributeID>TINHNQ</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="aa50d4e0-4438-4e45-a666-d6e35a8ec650">
+          <HierarchyID>EMAIL - DIENTHOAI</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="b250d443-70b2-440c-84c8-4d279b92d517">
+          <HierarchyID>NOICAP - NGAYCAP</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="5c065ff7-94da-401a-8047-c98f3f0a7325">
+          <HierarchyID>SOCHUNGMINH - NGAYCAP</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="358b6633-69cd-442c-9dad-33bbcbc78a98">
+      <ID>Dim Hoc Ky</ID>
+      <Name>Chiều Học kỳ</Name>
+      <DimensionID>Dim Hoc Ky</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b2446284-a0ac-49f6-a75e-aab8bc429c3c">
+          <AttributeID>Dim Hoc Ky</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f2b35555-ebf4-4b1e-a1b2-ec0689919b53">
+          <AttributeID>Hoc Ky</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="0e43dc15-429c-40b7-beff-6f2e41bcf413">
+      <ID>Dim Mon Hoc</ID>
+      <Name>Chiều Môn học</Name>
+      <DimensionID>Dim Mon Hoc</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="15b73de2-1305-492b-8d5c-c45434059994">
+          <AttributeID>Dim Mon Hoc</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="132c48fc-c2f3-4114-b9a6-9a4202b61635">
+      <ID>Fact Gio Giang</ID>
+      <Name>Fact Gio Giang</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5d7c07fb-0a1c-46f1-979e-a91bfe2871d5">
+          <ID>Gio Giang</ID>
+          <Name>Gio Giang</Name>
+          <Source dwd:design-time-name="0a8d6338-7f41-4a5f-b321-e4bef1f372f7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="670c6312-1031-42af-9721-7f746ce221a8">
+              <TableID>dbo_FactGioGiang</TableID>
+              <ColumnID>GioGiang</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f6a54db0-d638-450f-81f1-73c535a5b260">
+          <ID>Fact Gio Giang Count</ID>
+          <Name>Fact Gio Giang Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="8d32ca81-023d-4914-be1a-ea7f7e0e1a9c">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="5b26bdbe-74bc-4892-84c3-a8e9de9d5ed0">
+              <TableID>dbo_FactGioGiang</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6cd55844-8cc0-492c-99ad-6f2a0cf57bbc">
+          <CubeDimensionID>Dim Nam</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c542bfb3-372f-4bd0-bee6-e34abbfb5838">
+              <AttributeID>Dim Nam</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e9676258-1d6d-4cbc-b7ea-568de963c718">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7c321683-6783-42c3-a4b1-d8aab70114da">
+                    <TableID>dbo_FactGioGiang</TableID>
+                    <ColumnID>IDNamHoc</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fd12c7ba-e130-4fd0-ab64-e3c610da53ab">
+          <CubeDimensionID>THONGTIN</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b29e5b78-9c6a-48bd-b591-966aadffe10e">
+              <AttributeID>THONGTIN</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6ef6c9b6-15e3-4be6-8565-22db23f54152">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bb3202a4-c119-4721-891f-5b9eb3f6e63e">
+                    <TableID>dbo_FactGioGiang</TableID>
+                    <ColumnID>IDNhanVien</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a19d06fa-d37b-45b5-8048-b3389d27cc79">
+          <CubeDimensionID>Dim Hoc Ky</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3639560a-3f9c-4841-946d-fe5e19d59f3b">
+              <AttributeID>Dim Hoc Ky</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="25aa3f88-cebb-4c58-b466-21066a15e6e8">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="396a1c25-209d-461b-88a8-c3e968a23138">
+                    <TableID>dbo_FactGioGiang</TableID>
+                    <ColumnID>IDHocKy</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="21ba3af1-390a-4077-8c29-e1136a5fabca">
+          <CubeDimensionID>Dim Mon Hoc</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6034b514-2919-45f9-9516-eacd0a27bae8">
+              <AttributeID>Dim Mon Hoc</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8e15edeb-e2ff-4d40-b526-22f11ac84de5">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6041a7f3-65b3-4adb-bf93-9d24f87f43e0">
+                    <TableID>dbo_FactGioGiang</TableID>
+                    <ColumnID>IDMon</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="5ee2d174-7aec-438b-a85a-e37443d7e25a">
+    <DataSourceViewID>DATA</DataSourceViewID>
+  </Source>
+</Cube>

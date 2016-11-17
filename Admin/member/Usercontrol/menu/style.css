@@ -1,0 +1,76 @@
+*{margin:0; padding: 0}
+
+#container {
+margin: 20px 0px 0px 10px;
+border: 1px solid #686;
+background-image: url(bg_menu.jpg); 
+background-repeat: repeat-x;
+float: left;
+}
+
+#container ul {
+float: left;
+list-style: none;
+behavior: url(whateverhover.htc);
+
+}
+
+#container ul li {
+position: relative;
+float: left;
+}
+
+#container li a {
+display: block;
+color: #292929;
+font-weight: bold;
+text-decoration: none;
+padding: .3em 6px;
+}
+
+#container li a:hover {
+color: white;
+background: orange;
+}
+
+#container li ul{
+background: blue;
+position: absolute;
+display: none;
+width: 10em;
+}
+
+
+#container li:hover ul{
+display: block;
+}
+
+#container ul li ul li {
+	border: 1px solid #686;
+width: 100%;
+}i li li:hover ul {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

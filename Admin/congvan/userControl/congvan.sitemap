@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Admin/congvan/default.aspx" title="Công văn"  description="">
+        <siteMapNode url="~/Admin/congvan/cvdi.aspx" title="Quản trị công văn đi"  description="" >
+			<siteMapNode url="~/Admin/congvan/nhapcvdi.aspx" title="Nhập công văn đi"/>
+			<siteMapNode url="~/Admin/congvan/nhaplieucvdi.aspx" title="Nhập công văn đi"/>
+			</siteMapNode>
+		<siteMapNode url="~/Admin/congvan/cvden.aspx" title="Quản trị công văn đến"  description="" >
+			<siteMapNode url="~/Admin/congvan/nhapcvden.aspx" title="Nhập công văn đến"/>
+			<siteMapNode url="~/Admin/congvan/nhaplieucvden.aspx" title="Nhập công văn đến"/>
+		</siteMapNode>
+       
+    </siteMapNode>
+</siteMap>

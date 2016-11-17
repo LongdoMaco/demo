@@ -1,0 +1,375 @@
+.Button_w43 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne1.gif); BORDER-LEFT: 0px; WIDTH: 43px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.Button_w55 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne2.gif); BORDER-LEFT: 0px; WIDTH: 55px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.Button_w76 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne3.gif); BORDER-LEFT: 0px; WIDTH: 76px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.Button_w100 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne4.gif); BORDER-LEFT: 0px; WIDTH: 100px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.Button_w122 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/nutne5.gif); BORDER-LEFT: 0px; WIDTH: 122px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.Button_xoa {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/ico_xoa.gif); BORDER-LEFT: 0px; WIDTH: 18px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #ffffff
+}
+.Button_edit {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/ico_edit.gif); BORDER-LEFT: 0px; WIDTH: 18px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #ffffff
+}
+.Button_reply {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../image/ico_reply.gif); BORDER-LEFT: 0px; WIDTH: 18px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 16px; BACKGROUND-COLOR: #ffffff
+}
+.CheckBox_solid {
+	BORDER-RIGHT: #c0c0c0 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #c0c0c0 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: #c0c0c0 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+.TextBox1 {
+	BORDER-RIGHT: #000088 1px solid; BORDER-TOP: #000088 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #000088 1px solid; BORDER-BOTTOM: #000088 1px solid; FONT-FAMILY: Verdana, Helvetica, Arial, Sans-serif
+}
+.TextBox2 {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Verdana, Helvetica, Arial, Sans-serif
+}
+.TextBox3 {
+	BORDER-RIGHT: #000088 1px solid; BORDER-TOP: #000088 1px solid; BORDER-LEFT: #000088 1px solid; BORDER-BOTTOM: #000088 1px solid; FONT-FAMILY: Tahoma, Verdana,Arial
+}
+.TextBox4 {
+	FONT-SIZE: 11px; WIDTH: 100px; FONT-FAMILY: "Tahoma", "Verdana", "Arial"
+}
+.ListBox {
+	BORDER-RIGHT: #000088 0px solid; BORDER-TOP: #000088 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #000088 0px solid; BORDER-BOTTOM: #000088 0px solid; FONT-FAMILY: Tahoma, Helvetica, Arial, Sans-serif
+}
+A.link1link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.link1:active {
+	COLOR: #2563c0
+}
+A.link1:hover {
+	COLOR: #3c76a6
+}
+A.link1:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.link2:link {
+	FONT-SIZE: 8pt; COLOR: #ff8000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif; TEXT-DECORATION: none
+}
+A.link2:active {
+	COLOR: #ff8000; TEXT-DECORATION: none
+}
+A.link2:hover {
+	COLOR: #3c76a6; TEXT-DECORATION: underline
+}
+A.link2:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff8000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif; TEXT-DECORATION: none
+}
+A.link3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link3:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link3:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #3c76a6; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.link4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link4:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link4:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link4:hover {
+	COLOR: #3c76a6; TEXT-DECORATION: underline
+}
+A.link5 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ff0000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link5:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ff0000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link5:hover {
+	COLOR: #3c76a6; TEXT-DECORATION: underline
+}
+A.link6:link {
+	FONT-SIZE: 8pt; COLOR: #3c76a6; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link6:active {
+	FONT-SIZE: 8pt; COLOR: #3c76a6; FONT-FAMILY: Tahoma
+}
+A.link6:hover {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.link6:visited {
+	FONT-SIZE: 8pt; COLOR: #3c76a6; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link7:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link7:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.link7:hover {
+	COLOR: #0000cc; TEXT-DECORATION: underline
+}
+A.drmenu:link {
+	FONT-SIZE: 8pt; COLOR: #5a5d61; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif; TEXT-DECORATION: none
+}
+A.drmenu:active {
+	FONT-SIZE: 9pt; COLOR: #5a5d61; TEXT-DECORATION: none
+}
+A.drmenu:hover {
+	COLOR: #3c76a6; TEXT-DECORATION: underline
+}
+A.drmenu:visited {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 8pt; PADDING-BOTTOM: 3px; COLOR: #5a5d61; PADDING-TOP: 3px; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif; TEXT-DECORATION: none
+}
+A.lich_b:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.lich_b:active:unknown {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+A.lich_b:hover {
+	FONT-SIZE: 8pt; COLOR: #3c76a6; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.lich_b:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.tdTa8dot_black {
+	FONT-SIZE: 8pt; COLOR: #000000; BORDER-BOTTOM: 1px dotted; FONT-FAMILY: Tahoma
+}
+.tdTa10 {
+	FONT-SIZE: 10pt; COLOR: #800000; FONT-FAMILY: Tahoma
+}
+.tdTa10_black {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+.tdTa10b {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #800000; FONT-FAMILY: Tahoma
+}
+.tdTa8_black {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+.tdTa8_gray {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.tdTa8_red {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff0000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_gray {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_gray:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_gray:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_gray:hover {
+	COLOR: #990000; TEXT-DECORATION: underline
+}
+A.tdTa8_black {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_black:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_black:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_black:hover {
+	COLOR: #0033cc; TEXT-DECORATION: underline
+}
+A.tdTa8_blue {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #0033cc; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_blue:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #0033cc; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_blue:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #0033cc; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_blue:hover {
+	FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.tdTa8_green {
+	FONT-SIZE: 8pt; CURSOR: hand; COLOR: #006600; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_green:link {
+	FONT-SIZE: 8pt; CURSOR: hand; COLOR: #006600; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_green:visited {
+	FONT-SIZE: 8pt; CURSOR: hand; COLOR: #006600; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.tdTa8_green:hover {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+.tdTa8_blue {
+	FONT-SIZE: 8pt; COLOR: #0033cc; FONT-FAMILY: Tahoma
+}
+.tdTa10_red {
+	FONT-SIZE: 10pt; COLOR: #ff0000; FONT-FAMILY: Tahoma
+}
+.tdTa9 {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #ff8040; FONT-FAMILY: Tahoma
+}
+.td1 {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid
+}
+.td2 {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 1px; BORDER-TOP: 0px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: 0px solid; PADDING-TOP: 1px; BORDER-BOTTOM: 0px solid
+}
+.tdlogin {
+	FONT-SIZE: 9pt; COLOR: #2563c0; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.txtlogin {
+	FONT-SIZE: 12px; COLOR: #000066; FONT-FAMILY: Tahoma, Arial
+}
+.pageborder {
+	SCROLLBAR-FACE-COLOR: #cccccc; SCROLLBAR-SHADOW-COLOR: #ffffff; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #333333; SCROLLBAR-TRACK-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: #999999; SCROLLBAR-BASE-COLOR: #000000
+}
+.framescroll {
+	SCROLLBAR-FACE-COLOR: #cccccc; SCROLLBAR-SHADOW-COLOR: #eeeeee; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #333333; SCROLLBAR-TRACK-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: #999999; SCROLLBAR-BASE-COLOR: #cccccc
+}
+.navbar_text {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: "Tahoma", "Verdana", "Arial"; TEXT-DECORATION: none
+}
+.checkbox {
+	BORDER-RIGHT: #ffffff 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ffffff 0px solid; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 12pt; PADDING-BOTTOM: 0px; BORDER-LEFT: #ffffff 0px solid; WIDTH: 15px; COLOR: #ffffff; PADDING-TOP: 0px; BORDER-BOTTOM: #ffffff 0px solid; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; outline: 0
+}
+.radio {
+	BORDER-RIGHT: #030 2px ridge; PADDING-RIGHT: 0px; BORDER-TOP: #090 2px ridge; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 14pt; PADDING-BOTTOM: 0px; BORDER-LEFT: #090 2px ridge; WIDTH: 20px; COLOR: #000; PADDING-TOP: 0px; BORDER-BOTTOM: #030 2px ridge; HEIGHT: 20px; BACKGROUND-COLOR: #0f0
+}
+.rowtitle {
+	BORDER-RIGHT: #dddddd 1px solid; BACKGROUND-POSITION: 50% top; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #dddddd 1px solid; FONT-FAMILY: Tahoma; HEIGHT: 21px; BACKGROUND-COLOR: #f6f6f6
+}
+.lich3 {
+	FONT-WEIGHT: 700; FONT-SIZE: 10pt; COLOR: #ff8000; FONT-FAMILY: Tahoma
+}
+.lich6 {
+	FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: Tahoma
+}
+A.cv:link {
+	FONT-WEIGHT: 100; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif; TEXT-DECORATION: none
+}
+A.cv:active {
+	COLOR: #ff8000
+}
+A.cv:hover {
+	COLOR: #3c76a6
+}
+A.cv:visited {
+	FONT-WEIGHT: 100; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif; TEXT-DECORATION: none
+}
+.tdcont1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma
+}
+.tdcv {
+	FONT-SIZE: 8pt; COLOR: #2563c0; FONT-FAMILY: Tahoma
+}
+.tdcv {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+.Button_w140 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(/image/nutnen8.gif); BORDER-LEFT: 0px; WIDTH: 140px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 19px
+}
+.Button_w55h36 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND-IMAGE: url(/image/nutnen6.gif); BORDER-LEFT: 0px; WIDTH: 55px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 36px
+}
+.Button_w76h36 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND-IMAGE: url(/image/nutnen7.gif); BORDER-LEFT: 0px; WIDTH: 76px; CURSOR: hand; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Arial, Sans-serif; HEIGHT: 36px
+}
+.st1 {
+	FONT-SIZE: 10pt; COLOR: #800000; FONT-FAMILY: Tahoma
+}
+.st2 {
+	FONT-SIZE: 10pt; FONT-FAMILY: Tahoma
+}
+.st3 {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+.st4 {
+	FONT-SIZE: 10pt; COLOR: #ff0000; FONT-FAMILY: Tahoma
+}
+.st5 {
+	FONT-SIZE: 9pt; COLOR: #ff8040; FONT-FAMILY: Tahoma
+}
+.st6 {
+	FONT-SIZE: 9pt; FONT-FAMILY: Tahoma
+}
+.lich0 {
+	FONT-SIZE: 10pt; COLOR: #ff8000; FONT-FAMILY: Tahoma
+}
+.lich1 {
+	FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.lich2 {
+	FONT-SIZE: 8pt; COLOR: #ff8000; FONT-FAMILY: Tahoma
+}
+.lich3 {
+	FONT-WEIGHT: 700; FONT-SIZE: 10pt; COLOR: #ff8000; FONT-FAMILY: Tahoma
+}
+.lich4 {
+	FONT-WEIGHT: 700; FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: Tahoma
+}
+.lich5 {
+	FONT-WEIGHT: 700; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma
+}
+.lich51 {
+	FONT-WEIGHT: 700; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #f5f5f5
+}
+.lich6 {
+	FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: Tahoma
+}
+.lichmenu1 {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.lichmenu2 {
+	BORDER-TOP-WIDTH: 2px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 2px; FONT-SIZE: 9pt; BORDER-BOTTOM-WIDTH: 0px; CURSOR: hand; COLOR: #ffff66; FONT-FAMILY: Tahoma; BORDER-RIGHT-WIDTH: 0px
+}
+.lichsn {
+	FONT-WEIGHT: 700; FONT-SIZE: 55pt; COLOR: #f5f5f5; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.lichxem {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 10pt; PADDING-BOTTOM: 10px; COLOR: #000088; PADDING-TOP: 10px; FONT-FAMILY: Tahoma
+}
+A.lich_a:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_a:active:unknown {
+	COLOR: #2563c0
+}
+A.lich_a:hover {
+	COLOR: #3c76a6
+}
+A.lich_a:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2563c0; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_c:link {
+	FONT-SIZE: 8pt; COLOR: #ff8000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_c:active:unknown {
+	COLOR: #ff8000
+}
+A.lich_c:hover {
+	COLOR: #3c76a6
+}
+A.lich_c:visited {
+	FONT-SIZE: 8pt; COLOR: #ff8000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_b:link {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_b:active:unknown {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_b:hover {
+	FONT-SIZE: 8pt; COLOR: #3c76a6; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}
+A.lich_b:visited {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana, Helvetica, Arial, Sans-serif
+}

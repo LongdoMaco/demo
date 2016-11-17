@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Admin/nhansu/default.aspx" title="Trang chủ"  description="">        
+      <siteMapNode url="~/Admin/nhansu/bonhiemngach.aspx" title="Bổ nhiệm ngạch"  description="" />
+      <siteMapNode url="~/Admin/nhansu/qhgd.aspx" title="Quan hệ gia đình"  description="" />
+      <siteMapNode url="~/Admin/nhansu/thongtincanhan.aspx" title="Thông tin cá nhân"  description="" />
+      <siteMapNode url="~/Admin/nhansu/danhba.aspx" title="Danh bạ"  description="" />
+      <siteMapNode url="~/Admin/nhansu/nhaplieu.aspx" title="Nhập liệu"  description="" />
+      <siteMapNode url="~/Admin/nhansu/timkiem.aspx" title="Tìm kiếm"  description="" />
+      <siteMapNode url="~/Admin/nhansu/trinhdo.aspx" title="Quá trình đào tạo"  description="" />
+      <siteMapNode url="~/Admin/nhansu/thongke.aspx" title="Thông kê nhân sự"  description="" />
+      <siteMapNode url="" title="Chức vụ"  description="" >
+        <siteMapNode url="~/Admin/nhansu/bncvdang.aspx" title="Chức vụ đảng"/>
+        <siteMapNode url="~/Admin/nhansu/bncvdoanthe.aspx" title="Chức vụ đoàn thể"/>
+        <siteMapNode url="~/Admin/nhansu/bncvchinhquyen.aspx" title="Chức vụ chính quyền"/>      
+         
+        </siteMapNode>
+      <siteMapNode url="" title="Quá trình hoạt động"  description="" >
+        <siteMapNode url="~/Admin/nhansu/ranuocngoai.aspx" title="Ra nước ngoài"/>
+        <siteMapNode url="~/Admin/nhansu/qtct.aspx" title="Quá trình công tác"/>
+		<siteMapNode url="~/Admin/nhansu/in_doandang.aspx" title="Ngày vào Đoàn/Đảng"/>
+
+	  </siteMapNode>
+      <siteMapNode url="" title="Khen thưởng"  description="" >
+        <siteMapNode url="~/Admin/khenthuong/ktcanhan.aspx" title="Khen thưởng cá nhân"/>
+        <siteMapNode url="~/Admin/khenthuong/kttapthe.aspx" title="Khen thưởng tập thể"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Kỷ luật"  description="" >
+        <siteMapNode url="~/Admin/khenthuong/kyluatcanhan.aspx" title="Kỷ luật cá nhân"/>
+        <siteMapNode url="~/Admin/khenthuong/kyluattapthe.aspx" title="Kỷ luật tập thể"/>
+      </siteMapNode>
+      
+        <siteMapNode url="" title=""  description="" />
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPagesBasic.master.cs" Inherits="Masterpager_MasterPagesBasic" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>E - ADMINISTRATION</title>
+    <link href="../App_Themes/Basic/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+   
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            font-weight: bold;
+        }
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style2 {
+            left: 0px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+   <form id="form1" runat="server">
+   <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+   </asp:ToolkitScriptManager>
+    <div class="page" >
+
+        <div id="header" class="auto-style2">
+            <div id="title">
+                <h1> TRƯỜNG ĐẠI HỌC BÁCH KHOA, ĐẠI HỌC ĐÀ NẴNG<BR>Phòng Tổ chức - Hành chính <br/></h1>
+            </div>
+            <div id="logindisplay">
+                Chào
+                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">Thoát</asp:LinkButton>
+            </div>            
+            <div id="menucontainer">
+            
+                <ul id="menu">              
+                  
+                    <li><a href ="/Admin/Default.aspx">Trang chủ</a></li>
+                    <li><a href ="/user/Default.aspx">Trang người dùng</a></li>
+                </ul>
+            
+            </div>
+        </div>
+         <div id="main"> 
+        <div style ="width :100%">            
+        </div>                   
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >            
+                <div class="auto-style1">
+                </div>
+           </asp:ContentPlaceHolder>
+            <div id="footer" class="style1">
+                Hiển thị tốt nhất ở trình duyệt Firefox 3+,IE 8+.Độ phân giải 1024x768</div>
+        </div>
+    </div>
+    </form> 
+</body>
+</html>

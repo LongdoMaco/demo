@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="">
+    <siteMapNode url="~/Admin/default.aspx" title="Trang chủ"  description="" />
+    <siteMapNode url="~/Admin/baidang/dangtin.aspx" title="Đăng tin"  description=""/>
+    <siteMapNode url="~/Admin/baidang/dmbaidang.aspx" title="Danh mục bài đăng"  description=""/>
+    <siteMapNode url="~/Admin/baidang/tapchi.aspx" title="Tạp chí"  description=""/>
+    <siteMapNode url="~/Admin/baidang/giaotrinh.aspx" title="Giáo trình"  description=""/>
+    <siteMapNode url="~/DangNhap.aspx" title="Thoát"  description="" />
+  </siteMapNode>
+</siteMap>

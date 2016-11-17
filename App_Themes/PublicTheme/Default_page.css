@@ -1,0 +1,32 @@
+﻿.clear
+{
+	clear:both;
+}
+#featrued_left
+{
+	float:left;
+	width:50%;
+	
+}
+#featrued_right
+{
+	float:right;
+	width:50%;
+}
+#featured
+{    width:100%;
+	 
+}
+#main_content
+{
+	width:100%;
+	height: auto;
+	margin-bottom: 13px;
+}
+#content_list
+{
+	width:100%;
+	height :auto;
+	overflow:hidden;
+	
+}

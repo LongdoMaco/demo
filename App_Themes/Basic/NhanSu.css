@@ -1,0 +1,73 @@
+﻿fieldset 
+{
+    margin: 0px;
+}
+
+#container
+{
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
+}
+.main-container
+{
+    position: relative; z-index: 10;
+    padding: 10px 10px 0px 170px;
+}
+/* Left Tabs */
+.htab-container
+{
+    width: 170px;
+    margin: 10px 0px; padding: 0px;
+    position: absolute; z-index: 11; top: 10px; left: 0px;
+    text-align: left; text-indent: 5px;
+    list-style: none;
+    border-top: 1px solid #0066bb; border-left: 1px solid #0066bb;
+    color: #006699;
+}
+.htab-container li
+{
+    height: 24px;
+    line-height: 200%;
+}
+.htab-container li a
+{
+    text-decoration: none;
+    display: block;
+}
+.htab-blur
+{
+    border-bottom: 1px solid #3399bf;
+    color: #006699;
+}
+.htab-blur a, .htab-blur a:active
+{
+    color: #006699;
+}
+.htab-blur a:hover
+{
+    font-weight: bold
+}
+.htab-focus
+{
+    position: relative;
+    right: -1px; margin-left: -1px;
+    background: #ddeeff url('Images/menu-grad.jpg') repeat-y;
+    border-left: 1px solid #33779b;
+    border-bottom: 1px solid #3399bf;
+    border-right: 1px solid #fff;
+    font-weight: bold;
+}
+.htab-focus a, .htab-focus a:active, .htab-focus a:hover
+{
+    font-weight: bold;
+    color: #006699;
+}
+/* Main Page Content */
+.main-content
+{
+    position: relative;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #00669a;
+}

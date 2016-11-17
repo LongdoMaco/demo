@@ -1,0 +1,86 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>9.0.1399.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmR3ZD0iaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9EYXRhV2FyZWhvdXNlL0Rlc2lnbmVyLzEuMCI+DQogIDxFbmFibGVkPmZhbHNlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+PC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+PC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPjwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+PC9Qcm92aWRlcj4NCjwvU291cmNlQ29udHJvbEluZm8+</State>
+  <Database>
+    <Name>Ra_quyetdinh_Tuyendung.database</Name>
+    <FullPath>Ra_quyetdinh_Tuyendung.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>DATA.cube</Name>
+      <FullPath>DATA.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DATA.partitions</Name>
+          <FullPath>DATA.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Chiều Năm học.dim</Name>
+      <FullPath>Chiều Năm học.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Chiều Nhân viên.dim</Name>
+      <FullPath>Chiều Nhân viên.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Chiều Học kỳ.dim</Name>
+      <FullPath>Chiều Học kỳ.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Chiều Môn học.dim</Name>
+      <FullPath>Chiều Môn học.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DUT.ds</Name>
+      <FullPath>DUT.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DATA.ds</Name>
+      <FullPath>DATA.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DATA.dsv</Name>
+      <FullPath>DATA.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DUT</Id>
+            <Name>DUT</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI.1;Data Source=DUT;Integrated Security=SSPI</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DATA</Id>
+            <Name>DATA</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI.1;Data Source=DUT;Integrated Security=SSPI;Initial Catalog=DATA</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DUT</Id>
+            <Name>DUT</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DATA</Id>
+            <Name>DATA</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

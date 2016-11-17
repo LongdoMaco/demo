@@ -1,0 +1,60 @@
+﻿body {
+}
+.title_right 
+{
+	font-weight:bold;
+}
+.txttieudeleft
+{
+font-size:18px;
+font-weight:bold;
+line-height:22px;
+margin:8px 0 10px;
+}
+.image_left
+{
+	padding-top:3px;
+}
+.txtchuyenmuc
+{
+color:#F47D21;
+font-size:14px;
+font-weight:bold;
+}
+ .style1
+{
+width: 100%;
+}
+.style2
+{
+	width:140px;
+}
+.style3
+{
+height: 20px;
+border-bottom:solid 1px #CCCCCC;
+margin-bottom:3px;
+}
+.style4
+{
+height: 20px;
+width: 61px;
+}
+.noidungtomtat
+{
+padding-top:3px;
+margin-top:3px;
+
+}
+.title2
+{
+display:inline;
+float:left;
+font-weight:bold;
+width:220px;
+color:#003399;
+}
+.style5
+{
+	padding:3px;
+}

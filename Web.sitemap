@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Admin/Default.aspx" title="Trang chủ"  description="">
+    <siteMapNode url="~/Admin/nhansu/default.aspx" title="Thông tin cá nhân"  description="" />
+      <siteMapNode url="" title="Chức vụ" >
+        <siteMapNode url="~/Admin/nhansu/bncvdang.aspx" title="Chức vụ đảng"/>
+        <siteMapNode url="~/Admin/nhansu/bncvchinhquyen.aspx"  title="Chức vụ chính quyền"/>
+        <siteMapNode url="~/Admin/nhansu/bncvdoanthe.aspx"  title="Chức vụ đoàn thể"/>
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>
